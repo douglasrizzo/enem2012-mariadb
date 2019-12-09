@@ -1,4 +1,4 @@
-# SQL scripts that import Enem 2012 microdata in a MariaDB database
+# SQL scripts to import Enem 2012 microdata into a MariaDB/MySQL database
 
 What the script does:
 
