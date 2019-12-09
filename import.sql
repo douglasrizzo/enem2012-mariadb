@@ -2,18 +2,15 @@
 Creator: Douglas De Rizzo Meneghetti
 Date: 18-7-2014
 
-What the script does:
-
-Enem 2012 microdata cconsist of 3 huge CSV files, whose structure was optimized so that the files be procecssed in a software called IBM SPSS. This script:
+What this script does:
 
 - imports the data into a relational database, allowing for better that querying;
-- normalize and the data in order to avoid redundancy;
-- preprocess item responses in binary format and spit it out in binary form.
+- normalizes the data, avoiding redundancies.
 
 Instructions:
 
-1. download the data available [here](http://portal.inep.gov.br/basica-levantamentos-acessar) and unzip it;
-2. In a MariaDB or MySQL database (untested) run this file
+1. download the data, available [here](http://portal.inep.gov.br/basica-levantamentos-acessar) and unzip it;
+2. In a MariaDB or MySQL database, run this file.
 */
 
 set SQL_SAFE_UPDATES = 0;
