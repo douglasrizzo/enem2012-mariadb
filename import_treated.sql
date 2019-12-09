@@ -4,10 +4,7 @@ SCRIPT DE IMPORTAÇÃO DOS MICRODADOS TRATADOS DO ENEM 2012
 Creator: Douglas De Rizzo Meneghetti
 Date: 18-7-2014
 
-What the script does:
-
-In case the Enem microdata has already been treated, this script creates the
-necessary tables so that the treated CSV files might be imported into it.
+In case the Enem microdata has been imported using import.sql and exported to CSV files, this script creates the necessary tables so that the treated CSV files might be imported into it.
 */
 
 drop schema if exists enem2012;

@@ -2,8 +2,6 @@
 Creator: Douglas De Rizzo Meneghetti
 Date: 18-7-2014
 
-What the script does:
-
 This script is supposed to be used after import.sql. It queries the tables created by the previous script and generates binary response files for all tests, using a random sample of 50000 examinees.
 */
 

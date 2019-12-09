@@ -2,15 +2,12 @@
 Creator: Douglas De Rizzo Meneghetti
 Date: 18-7-2014
 
-What this script does:
-
-- imports the data into a relational database, allowing for better that querying;
-- normalizes the data, avoiding redundancies.
+This script imports the data into a relational database, allowing for better that querying and normalizes the data into multiple tables, avoiding redundancies.
 
 Instructions:
 
 1. download the data, available [here](http://portal.inep.gov.br/basica-levantamentos-acessar) and unzip it;
-2. In a MariaDB or MySQL database, run this file.
+2. In a MariaDB or MySQL database, execute this file.
 */
 
 set SQL_SAFE_UPDATES = 0;
