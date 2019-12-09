@@ -2,7 +2,7 @@
 
 Enem 2012 microdata consists of 3 huge CSV files, whose structure was optimized so that the files can be imported into a software called IBM SPSS. I don't have this program, so I created a bunch of scripts to normalize and import the data into a MariaDB/MySQL database, as well as generate dichotomous responses for all 4 tests.
 
-Of particular importance is the fact that, although there are 4 tests (natural sciences, humanities sciences, literature, mathematics) the students take in the span of 2 days, there are actually 25 different test kits. The differences between each kit is only in the order of itens. I have manually tracked down where each item appears in each of the test kits and reordered all of them, so that all answers to a specific item are contained in the same column.
+Of particular importance is the fact that, although there are 4 tests (natural sciences, humanities sciences, literature, mathematics) the students take in the span of 2 days, there are actually 25 different test kits. The differences between each kit is only in the order of itens. I have manually tracked down where each item appears in each of the test kits and reordered the students' answers accordingly, so that all answers to a specific item are contained in the same column.
 
 ## The scripts
 
@@ -12,6 +12,6 @@ Of particular importance is the fact that, although there are 4 tests (natural s
 
 ## Instructions
 
-1. download the data, available [here](http://portal.inep.gov.br/basica-levantamentos-acessar) and unzip it;
+1. download the 2012 Enem data, available [here](http://portal.inep.gov.br/microdados) and unzip it. If the link is broken, I suggest you google it, as its location has changed quite a few times along the years.
 2. In a MariaDB or MySQL database (untested) run the `import.sql` script.
 3. _(Optional)_ execute `binary_responses.sql` to generate the CSV files with dichotomous responses.
