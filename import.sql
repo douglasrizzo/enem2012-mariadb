@@ -18,7 +18,7 @@ use enem_2012;
 
 create table debug(STATUS varchar(150), tempo time);
 
-insert into debug values('Ccreating temporary tables', curtime());
+insert into debug values('Creating temporary tables', curtime());
 
 create table tmp_dados (
     NU_INSCRICAO varchar(12) primary key,
