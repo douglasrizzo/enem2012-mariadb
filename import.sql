@@ -2,7 +2,8 @@
 Creator: Douglas De Rizzo Meneghetti
 Date: 18-7-2014
 
-This script imports the data into a relational database, allowing for better that querying and normalizes the data into multiple tables, avoiding redundancies.
+This script imports the data into a relational database, allowing for easier data querying.
+Data is also normalized into multiple tables, avoiding redundancies.
 
 Instructions:
 
